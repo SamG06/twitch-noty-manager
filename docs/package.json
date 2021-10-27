@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "docs for twitch noty manager",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:serve": "vitepress serve ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vitepress": "^0.20.0"
+  }
+}
