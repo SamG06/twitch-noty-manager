@@ -29,7 +29,7 @@ app.get("/", (request, reply) => {
 
 const start = async () => {
   try {
-    await app.listen(8080, "0.0.0.0");
+    await app.listen(3001, "0.0.0.0");
     const add = app.server.address() as AddressInfo;
     console.log(`Server listening on ${add.port}`);
 
