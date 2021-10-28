@@ -26,9 +26,4 @@ COPY --from=builder /app ./
 
 ENV DATABASE_URL="postgresql://postgres:postgres@twitch-noty-manager-postgres-1/postgres?schema=public"
 
-WORKDIR /app/src/db
-
-
-WORKDIR /app
-
 CMD [ "npm", "run", "start" ]

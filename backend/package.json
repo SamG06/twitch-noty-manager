@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx prisma migrate dev --name init && npm run build && node build/index.js",
+    "start": "npx prisma migrate deploy && npm run build && node build/index.js",
     "start:dev": "nodemon --exec npx ts-node ./src/index.ts",
     "test": "npx jest --verbose --runInBand",
     "build": "rimraf ./build && tsc"
