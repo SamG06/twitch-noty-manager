@@ -118,3 +118,5 @@ dist
 .pnp.*
 
 /src/db/prisma/**/migrations
+
+build
