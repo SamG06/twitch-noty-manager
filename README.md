@@ -1,4 +1,4 @@
-# Twitch Noty Manager
+![Twitch Noty Manager](https://raw.githubusercontent.com/SamG06/twitch-noty-manager/main/frontend/src/assets/logo.svg)
 
 Self hosted solution to efficiently managing twitch stream notifications and always stay up to date with your ever changing list of favorite streamers.
 
